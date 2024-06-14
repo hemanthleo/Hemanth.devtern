@@ -1,0 +1,104 @@
+/* styles.css */
+
+/* Header styles */
+.header {
+    font-size: 25px;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+body {
+  background-image: url('homepage_bg.jpg');
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #fff;
+}
+
+.nav img{
+	font-size: 40px;
+    font-weight: bold;
+	max-width:100px;
+}
+
+.nav-items {
+    margin-top: 10px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.nav-items a {
+    color: #fff;
+    margin-right: 20px;
+    text-decoration: none;
+}
+
+/* Main content styles */
+main {
+    padding: 20px;
+	font-size: 80px;
+	font-weight: bold;
+	color: white;
+}
+
+/* Footer styles */
+.footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+
+.social-media {
+    list-style: none;
+    padding: 0;
+}
+
+.social-media li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.social-media a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.paragraph1{
+	font-size: 20px;
+	color: white;
+}
+
+.paragraph2{
+	font-size: 40px;
+	font-weight: bold;
+	color: white;
+}
+
+
+.btn1{
+	border: none;
+	outline: none;
+	height: 50px;
+	width: 200px;
+	background-color: rgb(123, 150, 212);
+	color: white;
+	border-radius: 4px;
+	font-weight: bold;
+}
+
+.btn2{
+	border: 3px;
+	outline-style: solid;
+	height: 50px;
+	width: 200px;
+	background-color: transparent;
+	color: white;
+	border-radius: 4px;
+	font-weight: bold;
+}
